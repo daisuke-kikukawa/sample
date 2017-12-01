@@ -1,0 +1,641 @@
+/*-------  ここから共通のCSS  --------*/
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family:'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+/*-------  ここまで共通のCSS  --------*/
+/*ヘッダー*/
+header{
+  border-bottom:1px solid #eee;
+  height:50px;
+  width:100%;
+  line-height:50px;
+  background-color:white;
+  position:fixed;
+  top:0px;
+  z-index:10;
+}
+
+.heading{
+  width:1170px;
+  margin:0 auto;
+}
+
+.heading-left{
+  float:left;
+  font-family:"Dosis",sans-serif;
+  font-weight:700;
+  font-size:22px;
+
+}
+
+.heading-left a{
+  color:#777;
+  text-decoration:none;
+}
+
+.heading-left a:hover{
+  text-decoration:none;
+  color:#0dc0c0;
+}
+
+.heading-right{
+  float:right;
+  color:#323a45;
+}
+
+.heading-right li{
+  float:left;
+  padding-left:20px;
+  cursor:pointer;
+}
+
+.heading-right li:hover{
+  color:#0dc0c0;
+}
+
+/*メイントップ*/
+.main-top{
+  text-align:center;
+  color:white;
+  background-image:url(https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/practice/backgrounds/top.jpg);
+  background-size:cover;
+}
+
+.top-containts{
+  padding-top:220px;
+  padding-bottom:120px;
+  background-color:rgba(0,0,0,0.6)
+}
+
+.title h1{
+  font-size:48px;
+  padding-bottom:30px;
+}
+
+.title p{
+  font-size:18px;
+  padding-bottom:40px;
+  color:rgba(255,255,255,0.8);
+}
+
+.btn-top-detail{
+  border:1px solid rgba(250,250,250,0.15);
+  padding:10px 20px;
+  background-color:rgba(250,250,250,0.06);
+  display:inline-block;
+  font-weight:600;
+  font-size:18px;
+  margin-bottom:20px;
+}
+
+.btn-top-detail:hover{
+  border:1px solid rgba(250,250,250,1.0);
+}
+
+/*main-learning*/
+
+.main-learning{
+  width:1170px;
+  margin:0 auto;
+}
+
+.learning-message{
+  width:100%;
+  text-align:center;
+  margin:80px 0px 10px 0px;
+  font-size:32px;
+}
+
+.learning-contents{
+  width:60%;
+  margin:0 auto;
+  height:500px;
+  margin-bottom:80px;
+  text-align:center;
+}
+
+.learning-content{
+  float:left;
+  width:50%;
+  margin-top:40px;
+}
+
+.content-img{
+  margin-bottom:20px;
+}
+
+.content-title{
+  margin-bottom:10px;
+  font-size:18px;
+}
+
+.content-message{
+  font-size:14px;
+  color:#888;
+}
+
+/*main-point*/
+.main-point{
+}
+
+.point{
+  width:100%;
+  height:376px;
+  background-color:#f4f4f4;
+  margin-bottom:120px;
+  text-align:center;
+}
+
+.point-message{
+  width:1170px;
+  margin:0 auto;
+}
+
+.point-message p{
+  font-size:32px;
+  padding-top:80px;
+  padding-bottom:10px;
+}
+
+.point-contents{
+  width:1170px;
+  margin:0 auto;
+}
+
+.point-content{
+  float:left;
+  width:40%;
+  padding-left:5%;
+  padding-right:5%;
+  margin-top:10px;
+}
+
+.content-menu{
+  font-size:18px;
+  color:#555;
+  padding-bottom:10px;
+}
+
+.content-detail{
+  font-size:14px;
+  color:#888;
+  padding-bottom:60px;
+}
+
+.clear{
+  clear:left;
+}
+
+/*course*/
+.main-course{
+  background-color:#f4f4f4;
+  padding-bottom:90px;
+}
+
+.main-course-message{
+  font-size:32px;
+  text-align:center;
+  padding-top:80px;
+  padding-bottom:30px;
+}
+
+.course{
+  width:1170px;
+  margin:0 auto;
+  text-align:center;
+}
+
+.course-contents{
+  width:100%;
+}
+
+.course-content{
+  display:inline-block;
+  width:28%;
+  margin-left:14px;
+  margin-right:14px;
+  background-color:white;
+  box-shadow:0px 1px 2px rgba(0,0,0,0.2);
+  padding:15px 15px 0px 15px;
+}
+
+.course-title{
+  background-color:#323a45;
+  font-size:24px;
+  color:white;
+  padding:30px 0px;
+}
+
+.course-title-blue{
+  background-color:#0dc0c0;
+  font-size:24px;
+  color:white;
+  padding:30px 0px;
+}
+
+.cash{
+  background-color:#f0f0f0;
+  font-size:28px;
+  color:#555;
+  padding:30px 0px;
+}
+
+.long{
+  border-bottom:1px solid #f0f0f0;
+  font-size:16px;
+  color:#888;
+  padding:30px 0px;
+}
+
+.chat{
+  border-bottom:1px solid #f0f0f0;
+  font-size:16px;
+  color:#888;
+  padding:30px 0px;
+}
+
+.office{
+  border-bottom:1px solid #f0f0f0;
+  font-size:16px;
+  color:#888;
+  padding:30px 0px;
+}
+
+.course-enter{
+  font-size:18px;
+  padding:10px 20px;
+  margin:40px 0px;
+  background-color:#323a45;
+  color:#c9d1d6;
+  display:inline-block;
+  cursor:pointer;
+}
+
+.course-enter:hover{
+  color:#fff;
+}
+
+/*main-voice*/
+.main-voice{
+  text-align:center;
+  width:100%;
+}
+
+.voice-contents{
+  margin-bottom:80px;
+}
+
+.voice-message{
+  font-size:32px;
+  color:#888;
+  padding-top:80px;
+}
+
+.voice-img{
+  width:150px;
+  margin-top:50px;
+  border-radius:75px;
+}
+
+.voice-detail{
+  color:#888;
+  font-size:14px;
+  padding-top:20px;
+}
+
+/*main-bottom*/
+.main-bottom{
+  background-image:url(https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/practice/backgrounds/night_view.jpg);
+  background-size:cover;
+}
+
+.bottom-contents{
+  background-color:rgba(0,0,0,0.6);
+}
+
+.bottom-message{
+  text-align:center;
+  padding:150px 0px 150px 0px;
+  width:1170px;
+  margin:0 auto;
+  color:white;
+  font-size:22px;
+  line-height:40px;
+}
+
+/*main-colum*/
+.main-colum{
+  background-color:#f4f4f4;
+}
+
+.colum{
+  width:1170px;
+  margin:0 auto;
+  text-align:center;
+}
+
+.colum-title{
+  font-size:32px;
+  color:#555;
+  padding-top:80px;
+  padding-bottom:20px;
+}
+
+.btn-title-left{
+  padding:8px 16px;
+  display:inline-block;
+  margin-bottom:40px;
+  margin-right:5px;
+  color:white;
+  background-color:#009ca8;
+  cursor:default;
+}
+
+.btn-title-center{
+  padding:8px 16px;
+  display:inline-block;
+  margin-bottom:40px;
+  margin-right:5px;
+  color:#444;
+  background-color:white;
+  cursor:pointer;
+}
+
+.btn-title-right{
+  padding:8px 16px;
+  display:inline-block;
+  margin-bottom:40px;
+  margin-right:5px;
+  color:#444;
+  background-color:white;
+  cursor:pointer;
+}
+
+.btn-title-center:hover{
+  color:white;
+  background-color:#009ca8;
+}
+
+.btn-title-right:hover{
+  color:white;
+  background-color:#009ca8;
+}
+
+.colum-contents{
+  width:100%;
+  margin:0 auto;
+}
+
+.colum-content{
+  width:40%;
+  margin:0 auto;
+  display:inline-block;
+  background-color:white;
+  margin-left:15px;
+  margin-right:15px;
+  margin-bottom:30px;
+  padding:7px;
+  box-shadow:0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.colum-message{
+  padding-top:17px;
+  font-size:17px;
+  color:#323a45;
+  cursor:pointer;
+}
+
+.colum-message:hover{
+  color:#009ca8;
+}
+
+.colum-detail{
+  padding-bottom:20px;
+  font-size:14px;
+  color:#888;
+}
+
+.colum-img-a{
+  cursor:pointer;
+  height:238px;
+  background-image:url(https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/practice/portfolio/programmer.jpg);
+  background-size:cover;
+}
+
+.colum-img-b{
+  cursor:pointer;
+  height:238px;
+  background-image:url(https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/practice/portfolio/html5.jpg);
+  background-size:cover;
+}
+
+.colum-img-c{
+  cursor:pointer;
+  height:238px;
+  background-image:url(https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/practice/portfolio/js.jpg);
+  background-size:cover;
+}
+
+.colum-img-d{
+  cursor:pointer;
+  height:238px;
+  background-image:url(https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/practice/portfolio/books.jpg);
+  background-size:cover;
+}
+
+.colum-img-e{
+  cursor:pointer;
+  height:238px;
+  background-image:url(https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/practice/portfolio/engineer.jpg);
+  background-size:cover;
+}
+
+.colum-img-f{
+  cursor:pointer;
+  height:238px;
+  background-image:url(https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/practice/portfolio/inspect.jpg);
+  background-size:cover;
+}
+
+.btn-colum-footer{
+  color:#c9d1d6;
+  padding:10px 20px;
+  margin-bottom:50px;
+  margin-top:20px;
+  font-size:18px;
+  background-color:#323a45;
+  display:inline-block;
+  cursor:pointer;
+}
+
+.btn-colum-footer:hover{
+  color:#fff;
+}
+
+/*main-contact*/
+.main-contact{
+  background-image:url(https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/practice/backgrounds/contact.jpg);
+  background-size:cover;
+  display:block;
+}
+
+.back{
+  background-color:rgba(0,0,0,0.6);
+  display:block;
+  padding-bottom :80px;
+}
+
+.contact{
+  width:1170px;
+  margin:0 auto;
+  display:block;
+}
+
+.contact-tittle{
+  text-align:center;
+  font-size:32px;
+  color:white;
+  padding-top:80px;
+}
+
+.contact-left{
+  width:58%;
+  float:left;
+  display:block;
+}
+
+.left-message{
+  font-size:22px;
+  padding:20px 0px 10px 0px;
+  color:white;
+}
+
+.input{
+  background-color:rgba(250,250,250,0.08);
+  color:#888;
+  display:block;
+  padding:15px;
+  margin-bottom:20px;
+  border:none;
+  width:85%;
+  font-size:16px;
+}
+
+.message{
+  background-color:rgba(250,250,250,0.08);
+  color:#888;
+  display:block;
+  padding:15px;
+  border:none;
+  width:85%;
+  font-size:16px;
+  height:150px;
+}
+
+.submit{
+  float:left;
+  background-color:#0dc0c0;
+  color:white;
+  display:block;
+  padding:15px 35px;
+  margin-top:30px;
+  border:none;
+  cursor:pointer;
+  font-size:18px;
+  border-radius:4px;
+}
+
+.contact-right{
+  width:40%;
+  display:inline-block;
+}
+
+.right-message{
+  font-size:22px;
+  padding:20px 0px;
+  color:white;
+}
+
+.right-detail{
+  font-size:14px;
+  padding-bottom:24px;
+  color:white;
+}
+
+.company{
+  color:white;
+  font-size:14px;
+}
+
+.company p{
+  padding-bottom:20px;
+  display:block;
+  font-size:22px;
+}
+
+.company a{
+  font-size:14px;
+}
+
+.fa-map-marker{
+  display:block;
+  margin-bottom:24px;
+}
+
+/*footer*/
+
+.footer-top{
+  width:1170px;
+  margin:0 auto;
+  text-align:center;
+}
+
+.footer-top p{
+  color:#555;
+  padding-top:80px;
+  font-size:32px;
+}
+
+.footer-logo{
+  font-size:36px;
+  color:#323a45;
+  padding-bottom:70px;
+}
+
+.fa-twitter{
+  padding-right:10px;
+}
+
+.footer-bottom{
+  background-color:#222;
+}
+
+.footer-message{
+  width:1170px;
+  margin:0 auto;
+  text-align:center;
+}
+
+.footer-message p{
+  padding:40px 0px;
+  font-size:14px;
+  color:#888;
+}
